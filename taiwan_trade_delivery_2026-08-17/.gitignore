@@ -1,0 +1,14 @@
+logs/
+*.log
+__pycache__/
+*.py[cod]
+*.inspect.ndjson
+tests/validation/formula_check/
+tests/validation/previews/
+
+# Keep the vendored private Excel runtime required by the delivery.
+!node_modules/
+!node_modules/@oai/
+!node_modules/@oai/artifact-tool/
+!node_modules/@oai/artifact-tool/**
+

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "months_compared": [
+    "2025-01"
+  ],
+  "reference_hs_count": 955,
+  "comparison_row_count": 955,
+  "pass_count": 955,
+  "fail_count": 0,
+  "status_counts": {
+    "PASS": 896,
+    "PASS_ZERO_NOT_RETURNED": 59
+  },
+  "max_abs_quantity1_difference": 0,
+  "max_abs_quantity2_difference": 0,
+  "max_abs_value_difference_thousand_yen": 0,
+  "fetched_file": "C:\\Users\\ysr02\\Desktop\\undergrad\\focus alpha\\project 4\\data\\raw\\import_2025_01.csv",
+  "reference_file": "C:\\Users\\ysr02\\Desktop\\undergrad\\focus alpha\\project 4\\data\\reference\\2025\\import_totals_by_hs_code.csv",
+  "manifest_file": "C:\\Users\\ysr02\\Desktop\\undergrad\\focus alpha\\project 4\\data\\raw\\import_2025_01.manifest.json",
+  "comparison_file": "C:\\Users\\ysr02\\Desktop\\undergrad\\focus alpha\\project 4\\outputs\\validation_2025_01.csv"
+}

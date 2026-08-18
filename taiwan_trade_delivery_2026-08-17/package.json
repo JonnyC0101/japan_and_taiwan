@@ -1,0 +1,11 @@
+{
+  "name": "taiwan-trade-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Automated Taiwan Chapter 84/85 import and export monthly workbooks"
+}
+

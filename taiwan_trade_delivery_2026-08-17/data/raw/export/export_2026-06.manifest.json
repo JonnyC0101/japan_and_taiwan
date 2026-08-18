@@ -1,0 +1,58 @@
+{
+  "reporter": "Taiwan",
+  "flow": "export",
+  "month": "2026-06",
+  "source_page": "https://publicinfo.trade.gov.tw/cuswebo/FSCE3000C?table=FSCE3020F",
+  "source_endpoint": "https://publicinfo.trade.gov.tw/cuswebo/FSCE3020F/GetData",
+  "trade_scope": "includes re-imports/re-exports (rdoReportCode=All)",
+  "ccc_count": 1548,
+  "batch_count": 78,
+  "request_count": 156,
+  "reported_count": 1156,
+  "zero_count": 379,
+  "protected_batch_count": 2,
+  "hidden_rows": {
+    "4": [
+      {
+        "metric": "quantity",
+        "code_label": "84122110900",
+        "amount": 2181197.0,
+        "secondary": 12110.0
+      },
+      {
+        "metric": "weight",
+        "code_label": "84122110900",
+        "amount": 2181197.0,
+        "secondary": 97058.0
+      }
+    ],
+    "57": [
+      {
+        "metric": "quantity",
+        "code_label": "85176200906",
+        "amount": 1769286246.0,
+        "secondary": 6573961.0
+      },
+      {
+        "metric": "quantity",
+        "code_label": "85176200103",
+        "amount": 427143.0,
+        "secondary": 3497.0
+      },
+      {
+        "metric": "weight",
+        "code_label": "85176200906",
+        "amount": 1769286246.0,
+        "secondary": 5153778.0
+      },
+      {
+        "metric": "weight",
+        "code_label": "85176200103",
+        "amount": 427143.0,
+        "secondary": 3071.0
+      }
+    ]
+  },
+  "amount_mismatch_count": 0,
+  "fetched_at_utc": "2026-08-17T04:57:29.568076+00:00"
+}

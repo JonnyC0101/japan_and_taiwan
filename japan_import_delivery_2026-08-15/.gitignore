@@ -1,0 +1,43 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Microsoft Office temporary files
+~$*
+
+# Build and coverage output
+build/
+dist/
+coverage/
+htmlcov/
+
+# Runtime data and generated deliverables
+data/raw/*
+!data/raw/.gitkeep
+data/history/
+data/interim/*
+!data/interim/.gitkeep
+outputs/*
+!outputs/.gitkeep

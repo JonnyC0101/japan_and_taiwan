@@ -1,0 +1,10 @@
+{
+  "name": "japan-export-trade-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Automated Japan export quantity and value workbooks"
+}

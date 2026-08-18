@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "raw_file": "data/raw/export_2026-05_to_2026-06.csv",
+  "manifest_file": "data/raw/export_2026-05_to_2026-06.manifest.json",
+  "history_file": "data/history/export_monthly.csv",
+  "metrics_file": "data/interim/export_metrics.json",
+  "output_directory": "outputs/monthly/2026-06",
+  "hs_count": 1029,
+  "history_row_count": 18522,
+  "inserted_rows": 0,
+  "replaced_rows": 2058,
+  "latest_month": "2026-06",
+  "excel_scope": "consolidated"
+}

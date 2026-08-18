@@ -1,0 +1,73 @@
+{
+  "raw_files": [
+    "data/raw/import/import_2026-07.csv"
+  ],
+  "history_file": "data/history/import_monthly.csv",
+  "metrics_file": "data/interim/import_metrics.json",
+  "output_directory": "outputs/monthly/2026-07/import",
+  "history_rows": 6192,
+  "ccc_count": 1548,
+  "inserted_rows": 0,
+  "replaced_rows": 1548,
+  "latest_month": "2026-07",
+  "fetch_manifests": [
+    {
+      "reporter": "Taiwan",
+      "flow": "import",
+      "month": "2026-07",
+      "source_page": "https://publicinfo.trade.gov.tw/cuswebo/FSCE3000C?table=FSCE3020F",
+      "source_endpoint": "https://publicinfo.trade.gov.tw/cuswebo/FSCE3020F/GetData",
+      "trade_scope": "includes re-imports/re-exports (rdoReportCode=All)",
+      "ccc_count": 1548,
+      "batch_count": 78,
+      "request_count": 156,
+      "reported_count": 1280,
+      "zero_count": 259,
+      "protected_batch_count": 2,
+      "hidden_rows": {
+        "4": [
+          {
+            "metric": "quantity",
+            "code_label": "84122110900",
+            "amount": 1620870.0,
+            "secondary": 27728.0
+          },
+          {
+            "metric": "weight",
+            "code_label": "84122110900",
+            "amount": 1620870.0,
+            "secondary": 94767.0
+          }
+        ],
+        "57": [
+          {
+            "metric": "quantity",
+            "code_label": "85176200906",
+            "amount": 2249925286.0,
+            "secondary": 2440177.0
+          },
+          {
+            "metric": "quantity",
+            "code_label": "85176200103",
+            "amount": 309690.0,
+            "secondary": 1762.0
+          },
+          {
+            "metric": "weight",
+            "code_label": "85176200906",
+            "amount": 2249925286.0,
+            "secondary": 1673040.0
+          },
+          {
+            "metric": "weight",
+            "code_label": "85176200103",
+            "amount": 309690.0,
+            "secondary": 2339.0
+          }
+        ]
+      },
+      "amount_mismatch_count": 0,
+      "fetched_at_utc": "2026-08-17T04:44:01.860273+00:00"
+    }
+  ]
+}

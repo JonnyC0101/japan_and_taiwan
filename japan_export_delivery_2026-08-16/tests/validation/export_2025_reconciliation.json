@@ -1,0 +1,10 @@
+{
+  "raw_file": "data\\export_2025.csv",
+  "official_file": "data\\reference\\2025\\official_export_values_2025.csv",
+  "raw_rows": 11965,
+  "checked_rows": 11965,
+  "missing_from_official": 0,
+  "mismatch_count": 0,
+  "sample_mismatches": [],
+  "status": "pass"
+}

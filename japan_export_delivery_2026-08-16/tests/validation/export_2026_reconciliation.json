@@ -1,0 +1,10 @@
+{
+  "raw_file": "data\\raw\\export_2026-01_to_2026-06.csv",
+  "official_file": "data\\reference\\2026\\official_export_values_2026-06.csv",
+  "raw_rows": 5809,
+  "checked_rows": 5809,
+  "missing_from_official": 0,
+  "mismatch_count": 0,
+  "sample_mismatches": [],
+  "status": "pass"
+}
